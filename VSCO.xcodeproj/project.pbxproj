@@ -13,6 +13,7 @@
 		63578AC327EFA5D20069AA0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63578AC127EFA5D20069AA0D /* Main.storyboard */; };
 		63578AC527EFA5D40069AA0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63578AC427EFA5D40069AA0D /* Assets.xcassets */; };
 		63578AC827EFA5D40069AA0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63578AC627EFA5D40069AA0D /* LaunchScreen.storyboard */; };
+		63578AD027EFA7FD0069AA0D /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63578ACF27EFA7FD0069AA0D /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		63578AC427EFA5D40069AA0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63578AC727EFA5D40069AA0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63578AC927EFA5D40069AA0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63578ACF27EFA7FD0069AA0D /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				63578AC427EFA5D40069AA0D /* Assets.xcassets */,
 				63578AC627EFA5D40069AA0D /* LaunchScreen.storyboard */,
 				63578AC927EFA5D40069AA0D /* Info.plist */,
+				63578ACF27EFA7FD0069AA0D /* ImagePicker.swift */,
 			);
 			path = VSCO;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63578AC027EFA5D20069AA0D /* ViewController.swift in Sources */,
+				63578AD027EFA7FD0069AA0D /* ImagePicker.swift in Sources */,
 				63578ABC27EFA5D20069AA0D /* AppDelegate.swift in Sources */,
 				63578ABE27EFA5D20069AA0D /* SceneDelegate.swift in Sources */,
 			);
