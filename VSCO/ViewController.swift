@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UIImagePickerControllerDelegate {
 
     @IBOutlet weak var addButton: UIButton!
     @IBOutlet weak var picture: UIImageView!
@@ -28,3 +28,9 @@ class ViewController: UIViewController {
 
 }
 
+extension ViewController: ImagePickerDelegate {
+    func didSelect(image: UIImage?) {
+    <#code#>
+    }
+
+}
