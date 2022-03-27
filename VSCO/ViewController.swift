@@ -30,7 +30,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate {
 
 extension ViewController: ImagePickerDelegate {
     func didSelect(image: UIImage?) {
-    <#code#>
+        self.picture.image = image
     }
 
 }
