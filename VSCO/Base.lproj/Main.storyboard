@@ -34,19 +34,21 @@
                                     <constraint firstAttribute="width" constant="234" id="Wy9-vG-NxE"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wT0-E0-N9Z">
-                                <rect key="frame" x="6" y="809" width="95" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wT0-E0-N9Z">
+                                <rect key="frame" x="20" y="798" width="51.5" height="31"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="scissors" catalog="system" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="scissors" catalog="system"/>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="wT0-E0-N9Z" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="QCL-3h-m8R"/>
                             <constraint firstItem="93E-3k-hxv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="ZBt-IT-JPN"/>
                             <constraint firstItem="Xct-WY-9vX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="25" id="bf9-12-UoR"/>
                             <constraint firstItem="93E-3k-hxv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="35" id="fgV-Ar-nKH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="wT0-E0-N9Z" secondAttribute="bottom" constant="33" id="ilg-YW-iMi"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Xct-WY-9vX" secondAttribute="trailing" constant="20" id="uSg-QV-En7"/>
                         </constraints>
                     </view>
