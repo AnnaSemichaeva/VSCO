@@ -12,10 +12,11 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate {
     @IBOutlet weak var addButton: UIButton!
     @IBOutlet weak var picture: UIImageView!
     
+    private var imagePicker: ImagePicker!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        self.imagePicker = ImagePicker(presentationController: self, delegate: self)
     }
 
     @IBAction func editAction(_ sender: Any) {
