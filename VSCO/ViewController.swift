@@ -23,6 +23,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate {
     }
     
     @IBAction func addAction(_ sender: Any) {
+        self.imagePicker.present(from: sender as! UIView)
     }
     
     
