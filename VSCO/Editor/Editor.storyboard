@@ -15,13 +15,27 @@
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="EKW-gm-P4j">
+                                <rect key="frame" x="20" y="74" width="374" height="660"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="EKW-gm-P4j" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="30" id="Eo8-7d-TkN"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="EKW-gm-P4j" secondAttribute="trailing" constant="20" id="ZsI-pr-1U4"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="EKW-gm-P4j" secondAttribute="bottom" constant="128" id="ig7-kW-DcV"/>
+                            <constraint firstItem="EKW-gm-P4j" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="lD2-hl-Kps"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="EKW-gm-P4j" id="doY-nC-VLR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="30" y="66"/>
+            <point key="canvasLocation" x="28.985507246376812" y="65.625"/>
         </scene>
     </scenes>
     <resources>

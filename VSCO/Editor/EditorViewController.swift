@@ -10,6 +10,10 @@ import UIKit
 class EditorViewController: UIViewController {
     
     public var picture: UIImage?
+    
+    
+    @IBOutlet weak var imageView: UIImageView!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
