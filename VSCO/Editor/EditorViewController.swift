@@ -17,7 +17,7 @@ class EditorViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.imageView.image = picture
     }
     
 
