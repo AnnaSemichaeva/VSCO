@@ -80,14 +80,24 @@
                                     <constraint firstAttribute="height" constant="100" id="Int-w7-TOu"/>
                                 </constraints>
                             </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uN7-zF-9j6">
+                                <rect key="frame" x="20" y="74" width="374" height="350"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="350" id="Zkc-x6-uus"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="uN7-zF-9j6" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="Br3-gx-2xa"/>
                             <constraint firstItem="EKW-gm-P4j" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="30" id="Eo8-7d-TkN"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="gsg-1B-BIf" secondAttribute="bottom" constant="54" id="J3D-d7-egM"/>
                             <constraint firstItem="gsg-1B-BIf" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="10" id="Wxx-mY-B2q"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="EKW-gm-P4j" secondAttribute="trailing" constant="20" id="ZsI-pr-1U4"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="uN7-zF-9j6" secondAttribute="trailing" constant="20" id="aYN-Rn-PZk"/>
+                            <constraint firstItem="uN7-zF-9j6" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="30" id="kdo-Ki-o3l"/>
                             <constraint firstItem="EKW-gm-P4j" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="lD2-hl-Kps"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="gsg-1B-BIf" secondAttribute="trailing" constant="10" id="yKu-3C-Y11"/>
                         </constraints>
