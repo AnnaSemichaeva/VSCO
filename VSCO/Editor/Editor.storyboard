@@ -103,6 +103,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="filterView" destination="uN7-zF-9j6" id="yZa-H4-ilJ"/>
                         <outlet property="imageView" destination="EKW-gm-P4j" id="doY-nC-VLR"/>
                     </connections>
                 </viewController>

@@ -9,6 +9,7 @@ import UIKit
 
 class EditorViewController: UIViewController {
     
+    @IBOutlet weak var filterView: UIView!
     public var picture: UIImage?
     
     
@@ -22,6 +23,7 @@ class EditorViewController: UIViewController {
     
     
     @IBAction func action1(_ sender: Any) {
+        filterView.backgroundColor = UIColor.Filter.blue
     }
     
     @IBAction func action2(_ sender: Any) {
