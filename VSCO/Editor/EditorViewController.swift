@@ -19,6 +19,7 @@ class EditorViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.imageView.image = picture
+        filterView.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0)
     }
     
     
@@ -27,15 +28,19 @@ class EditorViewController: UIViewController {
     }
     
     @IBAction func action2(_ sender: Any) {
+        filterView.backgroundColor = UIColor.Filter.grey
     }
     
     @IBAction func action3(_ sender: Any) {
+        filterView.backgroundColor = UIColor.Filter.orange
     }
     
     @IBAction func action4(_ sender: Any) {
+        filterView.backgroundColor = UIColor.Filter.purple
     }
     
     @IBAction func action5(_ sender: Any) {
+        filterView.backgroundColor = UIColor.Filter.yellow
     }
     
 
