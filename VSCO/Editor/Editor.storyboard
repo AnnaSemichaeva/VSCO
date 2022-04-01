@@ -89,7 +89,7 @@
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.25098040700000002" green="0.25098040700000002" blue="0.25098040700000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="uN7-zF-9j6" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="Br3-gx-2xa"/>
                             <constraint firstItem="EKW-gm-P4j" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="30" id="Eo8-7d-TkN"/>
