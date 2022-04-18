@@ -7,6 +7,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_1A4A5C54-DDBE-4EE7-A60E-6B62F1E03CC7" />
   <component name="ProjectApplicationVersion">
     <option name="ide" value="AppCode" />
     <option name="majorVersion" value="2021" />
@@ -24,6 +25,17 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cidr.known.project.marker" value="true" />
   </component>
+  <component name="RunManager">
+    <configuration name="VSCO" type="AppleRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VSCO" TARGET_NAME="VSCO" CONFIG_NAME="Debug" SCHEME_NAME="VSCO" IS_LOCATION_SIMULATION_ALLOWED="true" APPLICATION_LANGUAGE="IDELaunchSchemeLanguageUseSystemLanguage" APPLICATION_REGION="" RUN_TARGET_PROJECT_NAME="VSCO" RUN_TARGET_NAME="VSCO" MAKE_ACTIVE="TRUE" SHOULD_DEBUG_EXTENSIONS="false">
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <embedded_app_extension_list />
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -33,6 +45,7 @@
       <option name="presentableId" value="Default" />
       <updated>1649794372610</updated>
       <workItem from="1649794374235" duration="22000" />
+      <workItem from="1650294418896" duration="8000" />
     </task>
     <servers />
   </component>
